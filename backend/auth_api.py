@@ -48,7 +48,7 @@ async def http_exception_handler(request: Request, exc: HTTPException):
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],  # Vite default port
+    allow_origins=["http://localhost:5173", "http://localhost:3000","https://algotix.vercel.app",],  # Vite default port
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
