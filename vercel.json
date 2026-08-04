@@ -6,7 +6,7 @@
     "backend": {
       "root": "backend/",
       "framework": "fastapi",
-      "entrypoint": "app:app"
+      "entrypoint": "auth_api:app"
     }
   },
   "rewrites": [
